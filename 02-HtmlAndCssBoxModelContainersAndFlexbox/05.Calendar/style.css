@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238) ;
+}
+
+.container {
+    border: 1px solid  rgb(238, 238, 238);
+    border-radius: 1em;
+    
+}
+
+.calendar {
+    background-color: white;
+    height: 50vh;
+    margin: 10em 2em 1em 2em;
+    border: 1 px solid  rgb(238, 238, 238) ;
+}

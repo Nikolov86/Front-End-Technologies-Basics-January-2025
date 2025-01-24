@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid green;
+    padding: 2em;
+}
+
+header,
+main,
+footer {
+    border: 2px solid black;
+    margin: 1em auto;
+    
+}
+
+div,
+section,
+article {
+    display: flex;
+    border: 2px solid blue;
+    margin: 2em auto;
+    width: 60%;
+    height: 40px;
+    padding: 1em ;
+}
+

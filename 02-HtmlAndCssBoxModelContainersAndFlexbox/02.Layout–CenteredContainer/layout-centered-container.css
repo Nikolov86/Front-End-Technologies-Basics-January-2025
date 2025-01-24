@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid green;
+}
+
+.conteiner {
+  border: 2px solid black;
+  margin-bottom: 2em;
+}
+
+.content {
+  border: 2px solid blue;
+  margin: 3em 5em;
+}
+
+.layout-header,
+.layout-main,
+.layout-footer {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.content > * {
+  margin: 3em;
+  padding: 1em;
+}
