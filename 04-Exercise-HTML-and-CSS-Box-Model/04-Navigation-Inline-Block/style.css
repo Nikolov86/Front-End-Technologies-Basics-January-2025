@@ -1,0 +1,35 @@
+html {
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 100px;
+    float: left;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 12px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
