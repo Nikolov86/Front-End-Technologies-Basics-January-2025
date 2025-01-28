@@ -9,6 +9,30 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
-header{
-    display: inline-block;
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headerOne {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageTitle {
+    font-size: 3rem;
+    font-weight: bold;
+
+
+}
+
+.aOne {
+    text-decoration: none;
+}
+
+.navOne>* {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
 }
